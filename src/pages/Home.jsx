@@ -3,12 +3,13 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Countries from '../components/Countries';
 import FindCountry from '../components/FindCountry';
+import Header from '../components/Header';
 import { fetchCountries, searchCountries } from '../redux/countries';
 
 export default function Home() {
   return (
     <div>
-      <h2>Home</h2>
+      <Header />
       <FindCountry />
       <Countries />
     </div>
