@@ -2,11 +2,22 @@
   box-sizing: border-box;
   background-color: #4369b2;
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 @media only screen and (min-width: 768px) {
   * {
     background-color: #ec4c8a;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    width: 40%;
+    font-size: 1.4rem;
+  }
+
+  .flag {
+    margin: 0 auto;
+    width: 50%;
   }
 }
