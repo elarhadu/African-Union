@@ -17,6 +17,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [📷 Screenshot](#-screen-shot-)
+  - [🎥 Video Demo](#-video-demo-)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -89,6 +90,13 @@ The African Union App is a mobile web application that allows users to view a li
   <img src="./src/assets/Desktop-Detailspage.png" alt="logo" width="500"  height="auto" />
   <img src="./src/assets/Mobile-Detailspage.png" alt="logo" width="300"  height="auto" />
  </div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🎥 Video Demo <a name="video-demo"></a>
+
+ [African Union](https://www.loom.com/share/f4787c57c5f8477f88a81a8da8504b5d)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
