@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const CountryCard = ({
   name, flag, population, capital,
 }) => (
-  <Link to={`/country/${name}`}>
+  <Link to={`/country/${name}`} style={{ textDecoration: 'none' }}>
     <div className="card">
       <img src={flag} alt={`Flag of ${name}`} style={{ width: '100%' }} />
       <div className="card-content">
