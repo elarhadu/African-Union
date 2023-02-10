@@ -29,42 +29,44 @@ const Country = () => {
   return (
     <>
       <Header />
-      <div className="country-data" style={cardStyling}>
-        <h1>{country.name}</h1>
-        <img src={country.flags.svg} alt={`${country.name}'s Flag`} />
-        <div>
-          Capital:
-          {' '}
-          <span>{country.capital}</span>
-        </div>
-        <div>
-          Region:
-          {' '}
-          <span>{country.region}</span>
-        </div>
-        <div>
-          Sub-Region:
-          {' '}
-          <span>{country.subregion}</span>
-        </div>
-        <div>
-          Citizens:
-          {' '}
-          <span>{country.demonym}</span>
-        </div>
-        <div>
-          Area:
-          {' '}
-          <span>
-            {`${country.area.toLocaleString()} km²`}
-          </span>
-        </div>
-        <div>
-          Population:
-          {' '}
-          <span>
-            {country.population.toLocaleString()}
-          </span>
+      <div className="wrapper">
+        <div className="country-data" style={cardStyling}>
+          <h1>{country.name}</h1>
+          <img src={country.flags.svg} alt={`${country.name}'s Flag`} className="flag" />
+          <div>
+            Capital:
+            {' '}
+            <span>{country.capital}</span>
+          </div>
+          <div>
+            Region:
+            {' '}
+            <span>{country.region}</span>
+          </div>
+          <div>
+            Sub-Region:
+            {' '}
+            <span>{country.subregion}</span>
+          </div>
+          <div>
+            Citizens:
+            {' '}
+            <span>{country.demonym}</span>
+          </div>
+          <div>
+            Area:
+            {' '}
+            <span>
+              {`${country.area.toLocaleString()} km²`}
+            </span>
+          </div>
+          <div>
+            Population:
+            {' '}
+            <span>
+              {country.population.toLocaleString()}
+            </span>
+          </div>
         </div>
       </div>
     </>

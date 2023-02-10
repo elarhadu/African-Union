@@ -1,10 +1,7 @@
-/* eslint-disable no-unused-vars */
-import React, { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import React from 'react';
 import Countries from '../components/Countries';
 import FindCountry from '../components/FindCountry';
 import Header from '../components/Header';
-import { fetchCountries, searchCountries } from '../redux/countries';
 
 export default function Home() {
   return (

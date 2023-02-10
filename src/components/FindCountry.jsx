@@ -15,13 +15,16 @@ export default function FindCountry() {
     padding: '10px',
     borderRadius: '25px',
     fontSize: '16px',
+    color: 'black',
     backgroundColor: 'white',
   };
 
   return (
     <section>
-      <form className="search" onSubmit={(e) => { e.preventDefault(); }}>
-        <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="FIND A COUNTRY" style={inputStyles} />
+      <form className="search" style={{ display: 'flex', justifyContent: 'center' }} onSubmit={(e) => { e.preventDefault(); }}>
+        <div style={{ width: '500px' }}>
+          <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="FIND A COUNTRY" style={inputStyles} />
+        </div>
       </form>
     </section>
   );
